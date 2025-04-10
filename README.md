@@ -1,8 +1,8 @@
 ## fastapi-google-oauth-example
 
-1. set up your Google OAuth2.0 credentials
+1. set up your [Google OAuth2.0 credentials](https://console.cloud.google.com/auth/clients) 
 2. clone this repository
-3. add your credentials to the `.env` file
+3. add your credentials to the `.env` file (.env.example)
 4. run the app with `uvicorn main:app --reload`
 5. visit `http://localhost:8000/` and click the "Login with Google" button
 6. after successful authentication, you will be redirected to `http://localhost:8000/auth/callback` with the user information displayed
